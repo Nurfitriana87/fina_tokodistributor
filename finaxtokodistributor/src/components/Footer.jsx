@@ -8,14 +8,14 @@ import youtube from "../image/youtube.png";
 
 const Footer = () => {
   return (
-    <div className="h-[314px] bg-gradient-to-r from-linerGradient1 to-linerGradient2 flex items-center justify-center">
+    <div className="h-[314px] bg-gradient-to-r from-linerGradient1 to-linerGradient2 flex items-center justify-center ">
       <div>
         <img src={logotd1} alt="logo tokodistributor" className="cursor-pointer w-[332px] h-[32px]" />
         <p className="my-4 font-normal font-inter text-white flex justify-center items-center">Unduh Aplikasi Tokodistributor</p>
         <a href="https://play.google.com/store/apps/details?id=com.tokodistributor" className="mb-4 flex justify-center items-center cursor-pointer">
           <img src={googleplay} alt="google play" />
         </a>
-        <div className="gap-2 flex justify-center ">
+        <div className="gap-[10px] flex justify-center ">
           <a href="https://www.instagram.com/tokodistributor/" target="_blank" rel="noreferrer noopener">
             <img src={instagram} alt="logo-instagram" />
           </a>

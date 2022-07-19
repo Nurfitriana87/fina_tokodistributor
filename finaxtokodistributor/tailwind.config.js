@@ -8,6 +8,9 @@ module.exports = {
       linerGradient1: "#E0062E",
       linerGradient2: "#CF1863",
       white: "#FFFFFF",
+      black: "#262626",
+      darkgrey: "#595959",
+      lightgrey: "#737373",
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
