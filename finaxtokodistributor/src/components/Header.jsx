@@ -1,30 +1,36 @@
-import logotd from "../image/tokodistributor.png";
 import lady from "../image/lady.png";
+import Button from "./Button";
+import Logo from "./Logo";
+import Whatsapp from "./Whatsapp";
+
+// import grid from "../image/grid.png";
+// import ellipse1 from "../image/ellipse1.png";
+// import ellipse4 from "../image/ellipse4.png";
 
 function Header() {
   return (
     <>
-      {/* header */}
-      <div className="h-[698px] bg-gradient-to-r from-linerGradient2 to-linerGradient1">
-        <header className="container max-w-3xl mx-auto flex flex-row py-4">
-          <img src={logotd} alt="logo-tokodistributor" className="justify-start" />
-          <button className=" bg-white py-3 px-5 rounded-md font-bold text-base text-red ">Join Premium</button>
-        </header>
-        {/* header */}
-
-        {/* hero section */}
-
-        <div className="container mx-auto max-w-4xl flex items-center justify-center">
-          <div>
-            <h1 className="font-bold text-4xl text-white leading-[50.4px]">Reselling lebih Untung dengan Penghasilan Lebih dari 10jt/ bulan</h1>
-            <p className="font-medium text-2xl text-white leading-[33.6px] py-6">Dapatkan harga khusus premium yang lebih murah hingga 60%+ dengan menjadi Reseller Premium</p>
-            <button className="py-6 bg-white text-red font-semibold text-xl leading-6 rounded-md">Join Reseller Premium Sekarang </button>
+      <div className="">
+        <div className="py-4 px-[54px] border-b bg-gradient-to-r from-linerGradient2 to-linerGradient1 desktop:">
+          <div className="flex justify-between items-center">
+            <Logo />
+            <Button />
           </div>
 
-          <img src={lady} alt="lady" className="w-60" />
+          {/* hero section */}
+          <div className="pt-[33.72px] pb-[154.02px] flex justify-between items-center">
+            <div className="pr-[80.48px]">
+              <h1 className="font-bold text-4xl text-white leading-[50.4px]">Reselling lebih Untung dengan Penghasilan Lebih dari 10jt/ bulan</h1>
+              <p className="font-medium text-2xl text-white leading-[33.6px] py-6">Dapatkan harga khusus premium yang lebih murah hingga 60%+ dengan menjadi Reseller Premium</p>
+              <button className="py-6 pl-6 pr-[50.36px] bg-white text-red font-semibold font-inter text-xl leading-6 rounded-md hover:text-redHover">Join Reseller Premium Sekarang</button>
+            </div>
+            <div>
+              <img src={lady} alt="lady" className="pr-[54px]" />
+            </div>
+          </div>
+          <Whatsapp />
         </div>
       </div>
-      {/* hero section */}
     </>
   );
 }

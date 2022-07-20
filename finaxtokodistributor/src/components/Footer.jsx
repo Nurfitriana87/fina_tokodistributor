@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="h-[314px] bg-gradient-to-r from-linerGradient1 to-linerGradient2 flex items-center justify-center ">
       <div>
         <img src={logotd1} alt="logo tokodistributor" className="cursor-pointer w-[332px] h-[32px]" />
-        <p className="my-4 font-normal font-inter text-white flex justify-center items-center">Unduh Aplikasi Tokodistributor</p>
+        <p className="py-[18.5px] leading-[27.94px] font-normal text-lg font-inter text-white flex justify-center items-center">Unduh Aplikasi Tokodistributor</p>
         <a href="https://play.google.com/store/apps/details?id=com.tokodistributor" className="mb-4 flex justify-center items-center cursor-pointer">
           <img src={googleplay} alt="google play" />
         </a>

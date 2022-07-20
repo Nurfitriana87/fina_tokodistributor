@@ -2,9 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    screens: {
+      laptop: "1024px",
+      desktop: "1280px",
+    },
     colors: {
       red: "#CC3F3F",
+      redHover: "#b03737",
       linerGradient1: "#E0062E",
       linerGradient2: "#CF1863",
       white: "#FFFFFF",
